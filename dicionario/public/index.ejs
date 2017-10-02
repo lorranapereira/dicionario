@@ -1,0 +1,27 @@
+<form class="form-inline">
+<div class="form-group">
+  <label for="dic">Cole ou dígite o texto:</label><br/>
+  <textarea class="form-control" rows="2" id="dic"></textarea>
+  <button type="submit"class="btn btn-default">
+    <span class="glyphicon glyphicon-search"></span>
+  </button>
+  <br/>
+  <label for="dic">Palavra selecionada</label><br/>
+ <!-- <input type="select" name="" id="select" list="palavra" value=""> -->
+ <SELECT NAME = "lista" list = "diciplinas"  id="select" SIZE=1></option></SELECT>
+</div>
+</form>
+<div id="resultado">
+        
+</div>
+<script id="template" type="text/x-handlebars-template">
+    <table class="table">
+        <tbody>
+            <tr><strong>Definição</strong></tr>
+            <td>{{def}}</td>
+        </tbody>
+    </table>
+</script>
+
+<script src="js/index.js"></script>
+
